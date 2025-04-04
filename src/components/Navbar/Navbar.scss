@@ -58,10 +58,18 @@
       &:hover {
         color: var(--secondary-color);
       }
+      &:active{
+        color: var(--secondary-color); /* Color for the active link */
+      }
     }
     &:hover {
       div {
         background: var(--secondary-color);
+      }
+    }
+    &:active{
+      div{
+        color: var(--secondary-color); /* Color for the active link */
       }
     }
   }
